@@ -22,7 +22,7 @@
         "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
       },
       "runtimeArgs": [
-        "http://localhost:4000",
+        "http://localhost:4001",
         "--remote-debugging-port=9222"
       ],
       "sourceMaps": true,
