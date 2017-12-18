@@ -10,11 +10,10 @@
       "windows": {
         "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
       },
-      "program": "${workspaceRoot}/main.js",
-      "protocol": "legacy"
+      "program": "${workspaceRoot}/dist/main.js"
     },
     {
-      "name": "Debug Renderer Process",
+      "name": "Electron: Debug Renderer Process",
       "type": "chrome",
       "request": "launch",
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
