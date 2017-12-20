@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "module": "commonjs",
     "importHelpers": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "module": "commonjs",
-    "target": "es5",
-    "rootDir": "/",
-    "sourceMap": true,
+    "outDir": "dist",
     "lib": [
       "dom",
       "es6"

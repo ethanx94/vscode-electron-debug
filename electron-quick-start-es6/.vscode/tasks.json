@@ -1,7 +1,17 @@
 {
   "version": "0.1.0",
-  "command": "webpack",
+  "command": "npm",
   "isShellCommand": true,
-  "args": [],
-  "showOutput": "always"
+  "showOutput": "always",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "build",
+      "args": [
+        "run",
+        "build"
+      ],
+      "isBuildCommand": true
+    }
+  ]
 }
